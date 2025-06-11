@@ -1,48 +1,32 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
+# Ignore Python bytecode
+**/__pycache__/
+**/*.py[cod]
+**/*.pyo
+**/*.pyd
 
-# Virtual environment
-venv/
-ENV/
-env/
-.venv/
+# Ignore virtual environments in any subdirectory
+**/venv/
+**/.venv/
 
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints/
+# Ignore common output and logs in any subproject
+**/logs/
+**/screenshots/
+**/*.log
+**/*.tmp
+**/*.csv
 
-# OS and editor files
-.DS_Store
-Thumbs.db
+# Ignore sensitive auth files
+**/auth.json
+
+# Ignore Playwright/Selenium artifacts
+**/playwright-report/
+**/test-results/
+
+# Ignore system files
+*.DS_Store
 *.swp
 *.swo
-*.bak
 
-# Python distribution / packaging
-*.egg
-*.egg-info/
-dist/
-build/
-*.manifest
-*.spec
-
-# Logs and local output
-*.log
-*.out
-
-# PyInstaller
-*.manifest
-*.spec
-
-# IDEs
+# Ignore editor/IDE settings
 .vscode/
 .idea/
-
-# Data cache or temporary output
-data/**/transcripts/
-data/**/chunks/
-data/**/temp/
-
-# Ignore virtual environment
-audio-transcriber-backend/venv/
