@@ -1,6 +1,6 @@
 # Portfolio Projects
 
-Welcome to my portfolio repository. This collection showcases a range of applied projects in data science, real-time audio processing, large language models (LLMs), and AI tooling. Each project demonstrates hands-on experience with technologies like Python, PyTorch, Whisper, RAG pipelines, and cloud-friendly backends.
+Welcome to my portfolio repository. This collection showcases a range of applied projects in data science, real-time audio processing, large language models (LLMs), and AI tooling. Each project demonstrates hands-on experience with technologies like Python, Playwright, Selenium, Whisper, RAG pipelines, and cloud-ready backends.
 
 ## Projects
 
@@ -13,7 +13,19 @@ A real-time backend that captures both microphone and system audio, detects spee
 - Outputs structured transcriptions per utterance
 - Built for low-latency, modular use
 
-## Coming Soon
+### qa-form-filler
+
+A Python-based automation tool for quality assurance professionals and developers who need to test form behavior on websites. Built using Playwright and optionally Selenium, this tool simulates realistic user input for text fields, selectors, radio buttons, checkboxes, and more.
+
+- Playwright-based form automation with optional Selenium fallback
+- Randomized form input using Faker
+- Headless mode, screenshot capture, and structured CSV logging
+- CLI options for submitting forms, switching engines, and login
+- Designed for batch testing via a JSON URL list
+
+Note: Some fields, such as complex date pickers and file upload selectors, may not be fully supported depending on implementation. These are noted in logs when encountered.
+
+### Coming Soon
 
 ### rag-reader-system
 
@@ -44,7 +56,8 @@ Future additions may include:
 
 ## Skills Highlighted
 
-- Python, PyTorch, NumPy, SciPy
+- Python, Playwright, Selenium
+- Faker, WebDriver Manager, CLI design
 - Real-time audio processing (SoundDevice, ASIO Bridge)
 - Whisper and Silero VAD integration
 - LLM orchestration (RAG, Ollama, PipeCat)
