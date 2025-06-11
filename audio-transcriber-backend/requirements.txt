@@ -1,0 +1,9 @@
+numpy
+scipy
+sounddevice
+watchdog
+torch
+torchaudio
+faster-whisper
+ctranslate2
+silero-vad @ git+https://github.com/snakers4/silero-vad@0dd45f0bcd7271463c234f3bae5ad25181f9df8b
