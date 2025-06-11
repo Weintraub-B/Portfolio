@@ -16,6 +16,7 @@ QA Form Filler is a Python-based automation tool designed for quality assurance 
 
 ## Project Structure
 
+```
 qa-form-filler/
 ├── main.py
 ├── cli.py
@@ -27,6 +28,7 @@ qa-form-filler/
 ├── logging_config.py
 ├── screenshots/
 └── logs/
+```
 
 ## Usage
 
@@ -68,14 +70,14 @@ python main.py --urls url_list.json --headless --submit --selenium
 
 ## Command Line Options
 
-| Option      | Description                                     |
-|-------------|-------------------------------------------------|
-| --urls      | Path to JSON file with URLs to test             |
-| --headless  | Run browser in headless mode (no GUI)           |
-| --submit    | Automatically submits forms after filling       |
-| --selenium  | Use Selenium instead of Playwright              |
-| --login     | Optionally run login logic if enabled           |
-| --auth      | Path to authentication file (optional)          |
+| Option      | Description                                    |
+|-------------|------------------------------------------------|
+| --urls      | Path to JSON file with URLs to test            |
+| --headless  | Run browser in headless mode (no GUI)          |
+| --submit    | Automatically submits forms after filling      |
+| --selenium  | Use Selenium instead of Playwright             |
+| --login     | Optionally run login logic if enabled          |
+| --auth      | Path to authentication file (optional)         |
 
 ## Output
 
