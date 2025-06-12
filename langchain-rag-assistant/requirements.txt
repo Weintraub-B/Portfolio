@@ -1,0 +1,9 @@
+streamlit
+PyMuPDF
+langchain
+langchain-community
+langchain-chroma
+sentence-transformers
+transformers
+torch
+Pillow

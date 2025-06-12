@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# PyCharm or VSCode settings
+.idea/
+.vscode/
+
+# macOS and system files
+.DS_Store
+Thumbs.db
+
+# Python egg and distribution artifacts
+*.egg-info/
+dist/
+build/
+
+# Logs and streamlit temp files
+*.log
+.streamlit/
+
+# Application containers and data
+containers/*/chroma_index/
+containers/*/data/
+containers/*/ingested_files.json
+
+# PDF cache or temp files
+*.pdf~
+*.tmp
+
+# Ollama or model cache (optional, depending on setup)
+~/.cache/
+~/.ollama/
