@@ -125,7 +125,7 @@ def test_config_constants():
 
 ## License
 
-MIT License
+This project is released under the MIT License.
 
 ## Acknowledgments
 
